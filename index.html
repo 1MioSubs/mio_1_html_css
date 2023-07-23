@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -53,7 +57,15 @@
           </div>
         </section>
         <div class="slider">
-          
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url(images/slide-1.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(images/slide-1.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(images/slide-1.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(images/slide-1.jpg);"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
       </main>
 
@@ -160,6 +172,7 @@
       </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
